@@ -43,7 +43,7 @@ def main(sku,productName):
                     if soup.find(class_="c-shco-grad-button c-shco-grad-button--gray").get_text():
                         webhook = DiscordWebhook(url=webhookMain, username="Memory Express")
                         embed = DiscordEmbed(title='Item', description=(productName), color=242424)
-                        embed.set_author(name='Memory Express Monitor ', icon_url='https://pbs.twimg.com/profile_images/1161809234725441537/P2Nz_JZ4_400x400.jpg')
+                        embed.set_author(name='Memory Express Monitor ', url="https://twitter.com/CheemaOtb", icon_url='https://pbs.twimg.com/profile_images/1161809234725441537/P2Nz_JZ4_400x400.jpg')
                         embed.set_footer(icon_url='https://pbs.twimg.com/profile_images/1161809234725441537/P2Nz_JZ4_400x400.jpg', text='Powered By CheemaOTB#0001')
                         embed.set_timestamp()
                         embed.add_embed_field(name='Product Page', value=(URL))
