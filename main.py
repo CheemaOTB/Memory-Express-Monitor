@@ -20,7 +20,7 @@ import lxml
 from lxml import html
 
 def main(sku,productName):
-    webhookMain = "https://discord.com/api/webhooks/856466147443343360/UhbHJioJXBesjvsMWItaZum6t8tWa7d5AO2Ao0W36MnOYIYuB_Gbyp1VPoBDhciRA4WS"
+    webhookMain = "webhook here"
     while True:
         try:
             # Enter proxy here ip:port or user:pass:ip:port
