@@ -24,7 +24,7 @@ def main(sku,productName):
         try:
             # Enter proxy here ip:port or user:pass:ip:port
             proxies = {
-                "https": "https://192.198.126.217:1234/"
+                "https": "https://111.111.111.111:1234/"
             }
 
             URL = "https://www.memoryexpress.com/Products/" + sku
